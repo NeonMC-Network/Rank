@@ -1,0 +1,16 @@
+main: me.naptie.bukkit.rank.Main
+name: NeonRank
+version: 2.0.0
+api-version: "1.16"
+author: Naptie
+depend:
+  - NeonPlayer
+  - PermissionsEx
+commands:
+  rank:
+    aliases: [setrank]
+    description: To set a player's rank.
+permissions:
+  neonmc.rank:
+    description: Allows to set a player's rank by performing /rank.
+    default: op

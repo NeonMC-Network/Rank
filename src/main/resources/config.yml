@@ -1,0 +1,15 @@
+languages:
+  - en-GB
+  - en-US
+  - zh-CN
+update-language-files: true
+
+mysql:
+  enable: true
+  debug: false
+  address: localhost:3306
+  username: root
+  password: password
+  database: neonmc
+  timezone: CST
+  useSSL: true
